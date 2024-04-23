@@ -60,7 +60,7 @@ handleSubmit.addEventListener("click", (e) => {
   const loading = document.querySelector(".loading");
   loading.innerHTML = "loading...";
   // Fetch APIs
-  fetch("http://localhost:8080/all-apis", {
+  fetch("http://localhost:8081/all-apis", {
     method: "POST",
     credentials: "same-origin",
     headers: {
