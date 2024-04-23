@@ -48,7 +48,9 @@ html {
 
 /* General */
 
-.wrapper-date {
+.wrapper-date,
+.output-dates
+ {
     display: flex;
     flex-direction: row;
     align-items: center;
